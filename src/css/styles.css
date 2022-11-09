@@ -18,3 +18,40 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.countryList {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 17px;
+}
+.flagList {
+  width: 30px;
+}
+.country-list {
+  padding-left: 0;
+}
+p {
+  margin: 0;
+}
+.cardWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.nameCard {
+  font-weight: bold;
+}
+.flagCard {
+  width: 50px;
+}
+.bold {
+  font-weight: bold;
+}
+.country-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

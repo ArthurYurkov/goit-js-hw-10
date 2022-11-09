@@ -1,0 +1,8 @@
+<div class="cardWrapper">
+    <img class="flagCard" src="{{flags.svg}}" alt="{{name}}" />
+    <p class="nameCard">{{name}}</p>
+</div>
+<p class="capital"><span class="bold">Capital:</span> {{capital}}</p>
+<p class="population"><span class="bold">Population: </span>{{population}}</p>
+{{#each languages}}
+<p class="language"><span class="bold">Languages:</span>{{name}}</p>{{/each}}
